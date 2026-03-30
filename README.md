@@ -1,6 +1,6 @@
 # MeleeCombatSystem
 
-UE5 Blueprint 기반으로 제작한 3인칭 암살 + 근접 액션 싱글플레이 프로젝트
+UE5 Blueprint 기반으로 제작한 3인칭 암살 + 근접 액션 싱글플레이 프로젝트.
 전투 콤보, 패링, 암살 연출, AIPerception 기반 AI 감지, Dynamic BGM 전환 시스템 등을 구현.
 
 ## 프로젝트 개요
