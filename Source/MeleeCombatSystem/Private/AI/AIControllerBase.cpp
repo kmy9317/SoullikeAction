@@ -6,4 +6,6 @@
 void AAIControllerBase::GetActorEyesViewPoint(FVector& OutLocation, FRotator& OutRotaion) const
 {
 	DeterminAISightPerceptionViewPoint(OutLocation, OutRotaion);
+	auto Components = GetComponentsByClass(UPrimitiveComponent::StaticClass());
+
 }

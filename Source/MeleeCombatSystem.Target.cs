@@ -9,7 +9,9 @@ public class MeleeCombatSystemTarget : TargetRules
 	{
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
-
 		ExtraModuleNames.AddRange( new string[] { "MeleeCombatSystem" } );
+		
+		WindowsPlatform.Compiler = WindowsCompiler.VisualStudio2022;
+		WindowsPlatform.CompilerVersion = "14.38.33130";
 	}
 }
